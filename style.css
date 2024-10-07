@@ -1,0 +1,38 @@
+body {
+    background-color: #c3e0e9;
+    padding: 55px;
+    color:#053a3a;
+}
+
+.avatar {
+    border-radius: 50px;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  margin: 20px 0 12px;
+}
+
+p {
+    font-family: "Dancing Script", cursive; 
+}
+
+.button {
+    margin-bottom: 15px;
+    background-color: white;
+    border: 0;
+    width: 200px;
+    padding: 10px 0 8px;
+    border-radius: 200px;
+    font-family: "Pacifico", cursive;
+    font-size: 15px;
+    transition-duration: 0,2;
+    transition-property: color, background-color; 
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
+    cursor: pointer; 
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(77, 167, 209);
+}
